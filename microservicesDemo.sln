@@ -7,11 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformService", "Platform
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kubernetes", "Kubernetes", "{7739AAE1-60DC-4A6E-8D7E-6F52A879D508}"
 	ProjectSection(SolutionItems) = preProject
+		commands-depl.yaml = commands-depl.yaml
 		Kubernetes\platforms-depl.yaml = Kubernetes\platforms-depl.yaml
 		platforms-np-srv.yaml = platforms-np-srv.yaml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandService", "CommandService\CommandService.csproj", "{722C5C32-B42D-48C4-AF9C-253AB08577D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandService", "CommandService\CommandService.csproj", "{722C5C32-B42D-48C4-AF9C-253AB08577D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
